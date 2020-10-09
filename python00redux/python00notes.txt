@@ -1,0 +1,49 @@
+String Indexing
+Indexing starts at 0.  Able to use reverse indexing.  Last letter starts at -1.
+
+Slicing
+Grabs a subsection of multiple chars.
+[start:stop:step]
+start: numerical index where you start
+stop: index you go up to but not include
+step: the size of the jump you take
+
+format
+.format(f='fox', b='brown', q='quick')
+{q} {b} {f}
+float formatting follows..
+{value:width:precision}
+
+fstring
+name = "Jose"
+print(f'Hello, his name is {name}')
+
+lists
+list[1,'ac',3]
+Support indexing and slicing.
+list.append. Affecting the list in place. Adding element to the end of the list.
+list.pop(). "Pops" last element off of a list.
+Pass index position in to pop. list.pop(0)
+Indexing lists.. Just add ad additional bracket
+[1,1[1,2]]
+my_list[2][1]
+
+dictionaries
+dict{'key1':'value1','key2':'value2'}
+lists vs. dictionaries
+list-> objects retrieved by location. ordered sequence can be indexed or sliced.
+dictionaries -> Objects retrieved by key named. Unordered and can not be sorted.
+d.values() returns key values
+d.items() returns keys and values
+
+tuples
+immutable.
+Can use slicing and indexing.
+
+sets
+only contains unique values if you cast an array with duplicate values.
+
+I/O
+%%writefile myfile.txt
+blah blah blah.
+
