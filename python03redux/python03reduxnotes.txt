@@ -1,0 +1,48 @@
+def name_of_function():
+uses snake casing
+
+def name_of_fucntion():
+    print("Hello")
+
+def say_hello(name):
+    print(f'Hello {name'})
+
+say_hello('Jose')
+Hello Jose
+
+print vs return
+return saves result as variable.
+
+def print result(a,b):
+    print(a+b)
+
+def return result(a,b):
+    return a + b
+
+cannot save "print result" as variable
+result = return_result(10,20)
+result = 30
+
+user input returns a string.
+
+def even_numbers(myList):
+    #Placeholder
+    even_number_list = []
+
+    for number in num_list:
+        if number % 2 == 0:
+            even_number_list.append(number)
+        else:
+            pass
+
+    return even_number_list
+
+tuple unpacking
+foo,bar
+
+for foo,bar in list:
+    print(foo or bar)
+
+
+
+
